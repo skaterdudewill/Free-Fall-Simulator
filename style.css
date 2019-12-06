@@ -1,0 +1,35 @@
+h1.a {
+	position: absolute;
+	display: block;
+	top: 30%;
+	left: 35%;
+	font-family: Ubuntu,"serif";
+	font-size: 80px;
+	margin: 4px 2px;
+}
+button {
+  position: absolute;
+}
+button.two {
+	left:47%;
+	top:43%;
+	background-blend-mode: darken;
+	background-color: #3CB371	; color: green;
+	border: none;
+	color: black;
+	padding: 15px 60px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+div {
+  padding: 10px;
+}
+
+div.first {
+  opacity: 0.8;
+  filter: alpha(opacity=10); /* For IE8 and earlier */
+}
